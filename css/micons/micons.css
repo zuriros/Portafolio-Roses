@@ -50,7 +50,7 @@
 }
 .icon-at:before {
     content: "\e908";
-}
+} 
 .icon-attachment:before {
     content: "\e909";
 }
@@ -489,7 +489,7 @@
 .icon-plus:before {
     content: "\e99a";
 }
-.icon-pound:before {
+.icon-pound:before { 
     content: "\e99b";
 }
 .icon-power-on:before {
