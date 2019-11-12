@@ -6,182 +6,120 @@
 <!--<![endif]-->
 
 <head>
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+   <title>Zurisadai</title>
+   <meta name="description" content="">
+   <meta name="author" content="">
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Zurisadai</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+   <!-- mobile specific metas
+   ================================================== -->
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/main.css">
+   <!-- script
+   ================================================== -->
+   <script src="js/modernizr.js"></script>
+   <script src="js/pace.min.js"></script>
 
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+   <!-- favicons
+   ================================================== -->
+   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+   <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
-
 <body id="top">
+   <!-- header
+   ================================================== -->
+   <header class="s-header">
+     <div class="header-logo">
+        <a class="site-logo" href="index.html">
+           <img src="images/front-end.png" alt="Homepage"></a>
+     </div>
+     <nav class="header-nav">
+        <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+        <div class="header-nav__content">
+           <h3>Navigation</h3>  
+            <ul class="header-nav__list">
+               <li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
+               <li><a class="smoothscroll"  href="#about" title="about">Acerca de mi</a></li>
+               <li><a class="smoothscroll"  href="#works" title="works">Proyectos</a></li>
+               <li><a class="smoothscroll"  href="#clients" title="clients">Habilidades Técnicas</a></li>
+               <li><a class="smoothscroll"  href="#services" title="services">Habilidades Blandas</a></li>
+               <li><a class="smoothscroll"  href="#contact" title="contact">Contáctame</a></li>
+            </ul>
+        <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
+            <ul class="header-nav__social">
+               <li><a href="www.linkedin.com/in/zurirosas"><i class="fa fa-linkedin-square"></i></a></li> 
+               <li><a href="https://github.com/zuriros"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://drive.google.com/file/d/1oO-IrhPWL88SJPOhdooD_2kUiR3bO5VI/view?usp=sharing"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
+               <li><a href="https://www.facebook.com/ZuriRoses"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="https://twitter.com/AramburuRosas?lang=es"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div> <!-- end header-nav__content -->
+     </nav>  <!-- end header-nav -->
+     <a class="header-menu-toggle" href="#0">
+        <span class="header-menu-text">Menu</span>
+        <span class="header-menu-icon"></span>
+     </a>
+   </header> <!-- end s-header -->
+ <!-- home
+ ================================================== -->
+   <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+     <div class="overlay"></div>
+     <div class="shadow-overlay"></div>
+     <div class="home-content">
+       <div class="row home-content__main">
+         <h1>"Asegúrate de que la<br>curiosidad sea más <br>grande que el miedo"<br></h1>
+         <h3>Zurisadai Rosas Aramburú</h3>
+         <h3>front-end Developer</h3>
+         <div class="home-content__buttons">
+            <a href="#contact" class="smoothscroll btn btn--stroke">Contáctame</a>
+            <a href="#about" class="smoothscroll btn btn--stroke">Acerca de mí</a>
+         </div>
+       </div>
+       <div class="home-content__scroll">
+          <a href="#about" class="scroll-link smoothscroll"><span>Scroll Down</span></a>
+       </div>
+       <div class="home-content__line"></div>
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
+     </div> 
+     <!-- end home-content -->
+     <ul class="home-social">
+        <li><a href="www.linkedin.com/in/zurirosas"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span>Linkedin</span></a></li>
+        <li><a href="https://github.com/zuriros"><i class="fa fa-github" aria-hidden="true"></i><span>Github</span></a></li>
+        <li><a href="https://drive.google.com/file/d/1oO-IrhPWL88SJPOhdooD_2kUiR3bO5VI/view?usp=sharing"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>CV</span></a></li>
+        <li><a href="https://www.facebook.com/ZuriRoses"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a></li>
+        <li><a href="https://twitter.com/AramburuRosas?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a></li>
+     </ul> 
+     <!-- end home-social -->
 
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/front-end.png" alt="Homepage">
-            </a>
-        </div>
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Navigation</h3>
-                
-                <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Inicio</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">Acerca de mi</a></li>
-                    <li><a class="smoothscroll"  href="#works" title="works">Proyectos</a></li>
-                    <li><a class="smoothscroll"  href="#clients" title="clients">Habilidades Técnicas</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Habilidades Blandas</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contáctame</a></li>
-                </ul>
-    
-                <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
-                
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="www.linkedin.com/in/zurirosas"><i class="fa fa-linkedin-square"></i></a>
-                    </li> 
-                    <li>
-                        <a href="https://github.com/zuriros"><i class="fa fa-github"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://drive.google.com/file/d/1oO-IrhPWL88SJPOhdooD_2kUiR3bO5VI/view?usp=sharing"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/ZuriRoses"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/AramburuRosas?lang=es"><i class="fa fa-twitter"></i></a>
-                    </li>
-                </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav>  <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-text">Menu</span>
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
-
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
-
-        <div class="overlay"></div>
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-
-                <h1>
-                    "Asegúrate de que la  <br>
-                    curiosidad sea más <br>
-                    grande que el miedo"<br>
-                    
-                </h1>
-
-                <h3>Zurisadai Rosas Aramburú</h3>
-                <h3>front-end Developer</h3>
-
-                <div class="home-content__buttons">
-                    <a href="#contact" class="smoothscroll btn btn--stroke">
-                        Contáctame
-                    </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
-                        Acerca de mí
-                    </a>
-                </div>
-
-            </div>
-
-            <div class="home-content__scroll">
-                <a href="#about" class="scroll-link smoothscroll">
-                    <span>Scroll Down</span>
-                </a>
-            </div>
-
-            <div class="home-content__line"></div>
-
-        </div> <!-- end home-content -->
-
-
-        <ul class="home-social">
-            <li>
-                <a href="www.linkedin.com/in/zurirosas"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span>Linkedin</span></a>
-              </li>
-              <li>
-                <a href="https://github.com/zuriros"><i class="fa fa-github" aria-hidden="true"></i><span>Github</span></a>
-              </li>
-              <li>
-                <a href="https://drive.google.com/file/d/1oO-IrhPWL88SJPOhdooD_2kUiR3bO5VI/view?usp=sharing"><i class="fa fa-file-text-o" aria-hidden="true"></i><span>CV</span></a>
-              </li>
-             <li>
-                 <a href="https://www.facebook.com/ZuriRoses"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
-             </li>
-             <li>
-                 <a href="https://twitter.com/AramburuRosas?lang=es"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-             </li>
-        </ul> 
-        <!-- end home-social -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id='about' class="s-about">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead subhead--dark">¡Hola!</h3>
-                <h1 class="display-1 display-1--light">Me llamo Zuri</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row about-desc" data-aos="fade-up">
-            <div class="col-full">
-                <p>
+   </section> <!-- end s-home -->
+   <!-- about
+   ================================================== -->
+   <section id='about' class="s-about">
+      <div class="row section-header has-bottom-sep" data-aos="fade-up">
+         <div class="col-full">
+            <h3 class="subhead subhead--dark">¡Hola!</h3>
+            <h1 class="display-1 display-1--light">Me llamo Zuri</h1>
+         </div>
+      </div> 
+    <!-- end section-header -->
+      <div class="row about-desc" data-aos="fade-up">
+         <div class="col-full">
+            <p>
                 Soy front-end developer con una gran curiosidad por seguir aprendiendo;
                 en estos últimos meses he desarrollado páginas web utilizando la herramienta Javascript; 
-                lo que la programación me transmite es, no hay un solo camino para una solución.
-                
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
+                lo que la programación me transmite es, no hay un solo camino para una solución.  
+            </p>
+         </div>
+      </div>
+     <!-- end about-desc -->
 
         <!-- <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
                 
@@ -204,167 +142,149 @@
 
         </div> end about-stats -->
 
-        <div class="about__line"></div>
-
-    </section> <!-- end s-about -->
-
-
-     <!-- works
+     <div class="about__line"></div>
+   </section> <!-- end s-about -->
+    <!-- works
     ================================================== -->
-    <section id='works' class="s-works">
-
-        <div class="intro-wrap">
-                
-            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
-                <div class="col-full">
-                    <h3 class="subhead">Mis proyectos</h3>
-                    <h1 class="display-2 display-2--light">Descubrir y desarrollar maneras de crear</h1>
-                </div>
-            </div> <!-- end section-header -->
-
-        </div> <!-- end intro-wrap -->
-
-        <div class="row works-content">
-            <div class="col-full masonry-wrap">
-                <div class="masonry">
-               
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/primer-proyecto.png" class="thumb-link" title="Shutterbug" data-size="1050x700">
-                                    <img src="images/in-primer-proy.png" 
-                                         srcset="images/in-primer-proy.png 1x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Aracefa
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Codifica y decodifica tus mensajes
-                                </p>
-                            </div>
-                             <a href="https://zuriros.github.io/lim-2018-11-bc-core-am-cipher/src" id = "firsEvent"class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                                </a>
+   <section id='works' class="s-works">
+      <div class="intro-wrap">     
+         <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+            <div class="col-full">
+               <h3 class="subhead">Mis proyectos</h3>
+               <h1 class="display-2 display-2--light">Descubrir y desarrollar maneras de crear</h1>
+            </div>
+         </div> 
+       <!-- end section-header -->
+      </div> <!-- end intro-wrap -->
+      <div class="row works-content">
+         <div class="col-full masonry-wrap">
+             <div class="masonry">
+                <div class="masonry__brick" data-aos="fade-up">
+                   <div class="item-folio">    
+                      <div class="item-folio__thumb">
+                         <a href="images/portfolio/primer-proyecto.png" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                            <img src="images/in-primer-proy.png" srcset="images/in-primer-proy.png 1x" alt="">
+                         </a>
+                      </div>
+                      <div class="item-folio__text">
+                         <h3 class="item-folio__title"> Aracefa</h3>
+                         <p class="item-folio__cat">Codifica y decodifica tus mensajes</p>
+                      </div>
+                      <a href="https://zuriros.github.io/lim-2018-11-bc-core-am-cipher/src" id = "firsEvent"class="item-folio__project-link" title="Project link">
+                         <i class="icon-link"></i></a>
                             <!-- <div class="item-folio__caption">
                                 <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                             </div> -->
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-                    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/data-lovers2.png" class="thumb-link" title="Woodcraft" data-size="1050x700">
-                                    <img src="images/data-lovers.png" 
-                                         srcset="images/data-lovers.png 1x, images/data-lovers.png 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Pokemon
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Conoce a tus pokemones 
-                                </p>
-                            </div>
-                             <a href="https://zuriros.github.io/lim-2018-11-bc-core-am-data-lovers/src" id = "secondEvent" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                             </a>
+                   </div>
+                </div> 
+                <!-- end masonry__brick --> 
+                <div class="masonry__brick" data-aos="fade-up">
+                   <div class="item-folio">
+                      <div class="item-folio__thumb">
+                         <a href="images/data-lovers2.png" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                            <img src="images/data-lovers.png" srcset="images/data-lovers.png 1x, images/data-lovers.png 2x" alt="">
+                         </a>
+                      </div>
+                      <div class="item-folio__text">
+                         <h3 class="item-folio__title">Pokemon</h3>
+                         <p class="item-folio__cat">Conoce a tus pokemones</p>
+                      </div>
+                      <a href="https://zuriros.github.io/lim-2018-11-bc-core-am-data-lovers/src" id = "secondEvent" class="item-folio__project-link" title="Project link">
+                         <i class="icon-link"></i>
+                      </a>
                             <!-- <div class="item-folio__caption">
                                 <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                             </div> -->
-    
-                        </div>
-                    </div> <!-- end masonry__brick -->
-                
-   
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/red-social2.png" class="thumb-link" title="The Beetle Car" data-size="1050x700">
-                                    <img src="images/red-social.png"
-                                         srcset="images/red-social.png 1x, images/red-social.png 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    EcoHack
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Comparte tus inventos
-                                </p>
-                            </div>
-    
-                            <a href="https://zuriros.github.io/LIM008-social-network/src/" id="thirdEvent" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
+                   </div>
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick" data-aos="fade-up">
+                   <div class="item-folio">     
+                      <div class="item-folio__thumb">
+                         <a href="images/red-social2.png" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                            <img src="images/red-social.png" srcset="images/red-social.png 1x, images/red-social.png 2x" alt="">
+                         </a>
+                      </div>
+                      <div class="item-folio__text">
+                         <h3 class="item-folio__title">EcoHack</h3>
+                         <p class="item-folio__cat">Comparte tus inventos </p>
+                      </div>
+                      <a href="https://zuriros.github.io/LIM008-social-network/src/" id="thirdEvent" class="item-folio__project-link" title="Project link">
+                         <i class="icon-link"></i>
+                      </a>
     
                             <!-- <div class="item-folio__caption">
                                 <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                             </div> -->
     
-                        </div>
-                    </div> <!-- end masonry__brick -->
-    
-                    <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/codigo2.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
-                                    <img src="images/codigo.jpg" 
-                                         srcset="images/codigo.jpg 1x, images/codigo.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    MD-Links
-                                </h3>
+                   </div>
+                </div> <!-- end masonry__brick -->
+                <div class="masonry__brick" data-aos="fade-up">
+                   <div class="item-folio">     
+                      <div class="item-folio__thumb">
+                        <a href="images/codigo2.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                            <img src="images/codigo.jpg" srcset="images/codigo.jpg 1x, images/codigo.jpg 2x" alt="">
+                        </a>
+                      </div>
+                      <div class="item-folio__text">
+                        <h3 class="item-folio__title">MD-Links</h3>
                                 <!-- <p class="item-folio__cat">
                                     Branding
                                 </p> -->
-                            </div>
-    
-                            <a href="https://github.com/zuriros/md-links" id = "fourthEvent" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
+                      </div>
+                      <a href="https://github.com/zuriros/md-links" id = "fourthEvent" class="item-folio__project-link" title="Project link">
+                        <i class="icon-link"></i>
+                      </a>
     
                             <!-- <div class="item-folio__caption">
                                 <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                             </div> -->
     
-                        </div>
-                    </div> <!-- end masonry__brick -->
+                   </div>
+                </div> <!-- end masonry__brick -->
 
-                    <!-- <div class="masonry__brick" data-aos="fade-up">
+                <div class="masonry__brick" data-aos="fade-up">
+                   <div class="item-folio">   
+                      <div class="item-folio__thumb">
+                         <a href="images/freelancer2.png" class="thumb-link" title="Guitarist" data-size="1050x700">
+                            <img src="images/freelancerw.png" srcset="images/freelancerw.png 1x, images/freelancerw.png 2x" alt="">
+                         </a>
+                      </div>
+                      <div class="item-folio__text">
+                         <h3 class="item-folio__title">Bootstrap</h3>
+                         <p class="item-folio__cat">Web Design</p>
+                      </div>
+                      <a href="https://zuriros.github.io/freelancer/" class="item-folio__project-link" id = "fifthEvent" title="Project link">
+                         <i class="icon-link"></i>
+                      </a>
+    
+                      <div class="item-folio__caption">
+                         <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                      </div>
+    
+                   </div> 
+                </div>
+                    <!-- end masonry__brick -->
+    
+                    <div class="masonry__brick" data-aos="fade-up">
                         <div class="item-folio">
                                 
                             <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
-                                    <img src="images/portfolio/guitarist.jpg" 
-                                         srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="">
+                                <a href="images/menu.png" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                    <img src="images/menuInicio.png"
+                                         srcset="images/menuInicio.png 1x, images/menuInicio.png 2x" alt="">
                                 </a>
                             </div>
     
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    Guitarist
+                                    Burger queen
                                 </h3>
                                 <p class="item-folio__cat">
-                                    Web Design
+                                    Una mejor forma de tomar pedidos
                                 </p>
                             </div>
     
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <a href="https://zuriros.github.io/LIM008-fe-burger-queen/src/" class="item-folio__project-link" id = "sixthEvent" title="Project link">
                                 <i class="icon-link"></i>
                             </a>
     
@@ -372,74 +292,39 @@
                                 <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
                             </div>
     
-                        </div> -->
-                    <!-- </div>  -->
-                    <!-- end masonry__brick -->
-    
-                    <!-- <div class="masonry__brick" data-aos="fade-up">
-                        <div class="item-folio">
-                                
-                            <div class="item-folio__thumb">
-                                <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
-                                    <img src="images/portfolio/palmeira.jpg"
-                                         srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="">
-                                </a>
-                            </div>
-    
-                            <div class="item-folio__text">
-                                <h3 class="item-folio__title">
-                                    Palmeira
-                                </h3>
-                                <p class="item-folio__cat">
-                                    Web Design
-                                </p>
-                            </div>
-    
-                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
-                                <i class="icon-link"></i>
-                            </a>
-    
-                            <div class="item-folio__caption">
-                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
-                            </div>
-    
-                        </div> -->
-                    <!-- </div>  -->
+                        </div> 
+                    </div> 
                     <!-- end masonry__brick -->
 
-                </div> <!-- end masonry -->
-            </div> <!-- end col-full -->
-        </div> <!-- end works-content -->
+             </div> <!-- end masonry -->
+         </div> <!-- end col-full -->
+     </div> <!-- end works-content -->
 
-    </section> <!-- end s-works -->
-
-    <!-- técnicas
-    ================================================== -->
-    <section id="clients" class="s-clients">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Habilidades Técnicas</h3>
-                <h1 class="display-2">Estoy en constante desarrollo de más habilidades</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row clients-outer" data-aos="fade-up">
-            <div class="col-full">
-                <div class="clients">
-                    
-                    <a href="#0" title="JavaScript" class="clients__slide"><img src="images/clients/js.png" /></a>
-                    <a href="#0" title="Atom" class="clients__slide"><img src="images/clients/atom.png" /></a>
-                    <a href="#0" title="HTML" class="clients__slide"><img src="images/clients/html.png" /></a>
-                    <a href="#0" title="CSS" class="clients__slide"><img src="images/clients/css.png" /></a>
-                    <a href="#0" title="NodeJS" class="clients__slide"><img src="images/clients/nodejs.png" /></a>
-                    <a href="#0" title="GitHub" class="clients__slide"><img src="images/clients/github.png" /></a>
-                    <a href="#0" title="Git" class="clients__slide"><img src="images/clients/git.png" /></a>
-                    <a href="#0" title="Firebase" class="clients__slide"><img src="images/clients/firebase.png" /></a>
+   </section> <!-- end s-works -->
+   <!-- técnicas
+   ================================================== -->
+   <section id="clients" class="s-clients">
+      <div class="row section-header" data-aos="fade-up">
+         <div class="col-full">
+            <h3 class="subhead">Habilidades Técnicas</h3>
+            <h1 class="display-2">Estoy en constante desarrollo de más habilidades</h1>
+         </div>
+      </div> <!-- end section-header -->
+      <div class="row clients-outer" data-aos="fade-up">
+         <div class="col-full">
+            <div class="clients">    
+               <a href="#0" title="JavaScript" class="clients__slide"><img src="images/clients/js.png" /></a>
+               <a href="#0" title="Atom" class="clients__slide"><img src="images/clients/atom.png" /></a>
+               <a href="#0" title="HTML" class="clients__slide"><img src="images/clients/html.png" /></a>
+               <a href="#0" title="CSS" class="clients__slide"><img src="images/clients/css.png" /></a>
+               <a href="#0" title="NodeJS" class="clients__slide"><img src="images/clients/nodejs.png" /></a>
+               <a href="#0" title="GitHub" class="clients__slide"><img src="images/clients/github.png" /></a>
+               <a href="#0" title="Git" class="clients__slide"><img src="images/clients/git.png" /></a>
+               <a href="#0" title="Firebase" class="clients__slide"><img src="images/clients/firebase.png" /></a>
                      
-                </div> <!-- end clients -->
-            </div> <!-- end col-full -->
-        </div> <!-- end clients-outer -->
+            </div> <!-- end clients -->
+         </div> <!-- end col-full -->
+       </div> <!-- end clients-outer -->
 
         <!-- <div class="row clients-testimonials" data-aos="fade-up">
             <div class="col-full">
@@ -496,67 +381,62 @@
     </section> <!-- end s-clients -->
 
 
-    <!-- habilidades blandas
-    ================================================== -->
-    <section id='services' class="s-services">
-
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <!-- <h3 class="subhead">¿Que estoy haciendo para mis... </h3> -->
-                <h1 class="display-2">Habilidades blandas</h1>
+   <!-- habilidades blandas
+   ================================================== -->
+   <section id='services' class="s-services">
+      <div class="row section-header has-bottom-sep" data-aos="fade-up">
+         <div class="col-full">
+            <!-- <h3 class="subhead">¿Que estoy haciendo para mis... </h3> -->
+            <h1 class="display-2">Habilidades blandas</h1>
+         </div>
+      </div> <!-- end section-header -->
+      <div class="row services-list block-1-2 block-tab-full">
+         <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-brightness"></i>
             </div>
-        </div> <!-- end section-header -->
-
-        <div class="row services-list block-1-2 block-tab-full">
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-brightness"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Mentalidad de crecimiento</h3>
-                    <p> Aprendí a cultivar mi desarrollo intelectual con herramientas como:
-                       práctica, estrategia, atención y concentración.
-                    </p>
-                </div>
+            <div class="service-text">
+                <h3 class="h2">Mentalidad de crecimiento</h3>
+                <p> Aprendí a cultivar mi desarrollo intelectual con herramientas como:
+                    práctica, estrategia, atención y concentración.
+                </p>
             </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-users"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Comunicación asertiva</h3>
-                    <p>Aprendí a identificar qué situaciones son importantes para cada
-                       persona y cómo influye para una comunicación clara y directa, 
-                       entender el conflicto como un punto de aprendizaje.
-                    </p>
-                </div>
+         </div>
+         <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+               <i class="icon-users"></i>
             </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-megaphone"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h2">Trabajo en equipo</h3>
-                    <p>Desarrollé la habilidad de trabajar de manera colaborativa,
-                       ayudandonos mutuamente.
-                    </p>
-                </div>
+            <div class="service-text">
+               <h3 class="h2">Comunicación asertiva</h3>
+               <p>Aprendí a identificar qué situaciones son importantes para cada
+                  persona y cómo influye para una comunicación clara y directa, 
+                  entender el conflicto como un punto de aprendizaje.
+               </p>
             </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-earth"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Adaptación al cambio</h3>
-                    <p> Enfrenté mis miedos y desarrollé la capacidad de ser flexible
-                        a los cambios y al camino de incertidumbre.
-                    </p>
-                </div>
+         </div>
+         <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+               <i class="icon-megaphone"></i>
+            </div>  
+            <div class="service-text">
+               <h3 class="h2">Trabajo en equipo</h3>
+               <p>Desarrollé la habilidad de trabajar de manera colaborativa,
+                  ayudandonos mutuamente.
+               </p>
             </div>
+         </div>
+
+         <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+               <i class="icon-earth"></i>
+            </div>
+            <div class="service-text">
+               <h3 class="h2">Adaptación al cambio</h3>
+               <p> Enfrenté mis miedos y desarrollé la capacidad de ser flexible
+                  a los cambios y al camino de incertidumbre.
+                </p>
+            </div>
+         </div>
 
             <!-- <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
@@ -581,30 +461,20 @@
                 </div>
             </div> -->
 
-        </div> <!-- end services-list -->
-
+      </div> <!-- end services-list -->
     </section> <!-- end s-services -->
-
-
-   
-
-
     <!-- contact
     ================================================== -->
     <section id="contact" class="s-contact">
-
-        <div class="overlay"></div>
-        <div class="contact__line"></div>
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Contáctame</h3>
-                <h1 class="display-2 display-2--light"></h1>
-            </div>
+       <div class="overlay"></div>
+       <div class="contact__line"></div>
+       <div class="row section-header" data-aos="fade-up">
+          <div class="col-full">
+             <h3 class="subhead">Contáctame</h3>
+             <h1 class="display-2 display-2--light"></h1>
+          </div>
         </div>
-
-        <div class="row contact-content" data-aos="fade-up">
-            
+        <div class="row contact-content" data-aos="fade-up"> 
             <div class="contact-primary">
 
                 <!-- <h3 class="h6">Send Us A Message</h3> -->
@@ -650,11 +520,9 @@
                 </div> -->
 
             </div> <!-- end contact-primary -->
-
             <div class="contact-secondary">
-                <div class="contact-info">
-
-                    <h3 class="h6 hide-on-fullwidth">Información</h3>
+               <div class="contact-info">
+                  <h3 class="h6 hide-on-fullwidth">Información</h3>
 
                     <!-- <div class="cinfo">
                         <h5>Where to Find Us</h5>
@@ -664,47 +532,27 @@
                             94043 US
                         </p>
                     </div> -->
+                   <div class="cinfo">
+                      <h5>Email </h5>
+                      <p>zurirosas96@gmail.com</p>
+                   </div>
+                   <div class="cinfo">
+                      <h5>Puedes llamarme al</h5>
+                      <p>Celular:962-193-245</p>
+                   </div>
 
-                    <div class="cinfo">
-                        <h5>Email </h5>
-                        <p>
-                            zurirosas96@gmail.com
-                        </p>
-                    </div>
+                   <ul class="contact-social">
+                      <li><a href="www.linkedin.com/in/zurirosas"><i class="fa fa-linkedin-square"></i></a></li>
+                      <li><a href="https://github.com/zuriros"><i class="fa fa-github"></i></a></li>
+                      <li><a href="https://drive.google.com/file/d/1oO-IrhPWL88SJPOhdooD_2kUiR3bO5VI/view?usp=sharing"><i class="fa fa-file-text-o" aria-hidden="true"></i></a></li>
+                      <li><a href="https://www.facebook.com/ZuriRoses"><i class="fa fa-facebook"></i></a></li>
+                      <li><a href="https://twitter.com/AramburuRosas?lang=es"><i class="fa fa-twitter"></i></a></li>
+                   </ul> <!-- end contact-social -->
 
-                    <div class="cinfo">
-                        <h5>Puedes llamarme al</h5>
-                        <p>
-                            Celular:962-193-245
-                        </p>
-                    </div>
-
-                    <ul class="contact-social">
-                        <li>
-                            <a href="www.linkedin.com/in/zurirosas"><i class="fa fa-linkedin-square"></i></a>
-                        </li>
-                        <li>
-                           <a href="https://github.com/zuriros"><i class="fa fa-github"></i></a>
-                        </li>
-                        <li>
-                           <a href="https://drive.google.com/file/d/1oO-IrhPWL88SJPOhdooD_2kUiR3bO5VI/view?usp=sharing"><i class="fa fa-file-text-o" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://www.facebook.com/ZuriRoses"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/AramburuRosas?lang=es"><i class="fa fa-twitter"></i></a>
-                        </li>
-                    </ul> <!-- end contact-social -->
-
-                </div> <!-- end contact-info -->
+               </div> <!-- end contact-info -->
             </div> <!-- end contact-secondary -->
-
         </div> <!-- end contact-content -->
-
     </section> <!-- end s-contact -->
-
-
     <!-- footer
     ================================================== -->
     <footer>
